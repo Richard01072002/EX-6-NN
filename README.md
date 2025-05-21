@@ -16,7 +16,7 @@ Step 8:Make predictions on the testing set using mlp.predict(X_test).<BR>
 Step 9:Evaluate the model's accuracy by comparing the predicted labels (y_pred) with the actual labels (y_test) using accuracy_score().<BR>
 Step 10:Print the accuracy of the model.<BR>
 Step 11:Plot the error convergence during training using plt.plot() and plt.show().<BR>
-<H3>Program: </H3>
+<H3>Program: 
 ```
 import numpy as np
 import pandas as pd
@@ -67,13 +67,13 @@ print("\nClassification Report:")
 print(classification_rep)
 
 ```
-
-<H3>Output:</H3>
+</H3>
+<H3>Output:
 <img width="664" alt="Screenshot 2025-05-21 at 1 45 00 PM" src="https://github.com/user-attachments/assets/07a8e7a2-6f7e-4c03-9541-a612ccd60cd9" />
 
 
 <img width="662" alt="Screenshot 2025-05-21 at 1 45 22 PM" src="https://github.com/user-attachments/assets/d265ec54-33c0-4583-bc7f-42721af40caf" />
-
+</H3>
 
 <H3>Results:</H3>
 Thus, an ANN with MLP is constructed and trained to predict the heart attack using python.
